@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="get">
+      <fieldset>
+        <legend><strong>Dasdos do paciente</strong></legend>
+        None do paciente: <input type="text" name="nome"><br>
+        Registro hospitalar: <input type="text" name="registro"><br>
+        Data de inclusão: <input type="date" name="inclusao"><br>
+        Data de nascimento: <input type="date" name="datanasc"><br>
+        E-mail: <input type="email" name="email"><br>
+        Genero:<br>
+        <label for="g1">
+          <input type="radio" name="genero" value="1" id="g1">Feminino<br>
+        </label>
+        <label for="g2">
+          <input type="radio" name="genero" value="2" id="g2">Masculino<br>
+        </label>
+        Raça declarada: <select name="raca">
+          <option value=""></option>
+          <option value="1">Branca</option>
+          <option value="2">Negra</option>
+          <option value="3">Parda</option>
+          <option value="4">Amarela</option>
+          <option value="5">Indigena</option>
+          <option value="6">Desconhecida</option>
+        </select>
+        <br>
+        Como ficou sabendo do estudo:<br>
+        <input type="checkbox" name="estudo" value="convidado">Convidado
+        <br>
+        <input type="checkbox" name="estudo" value="internet">Internet
+        <br>
+        <input type="checkbox" name="estudo" value="amigos">Amigos
+        <br>
+        <button type="submit"><strong>Enviar</strong></button>
+      </fieldset>
+    </form>
+  </body>
+</html>
